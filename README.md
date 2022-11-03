@@ -50,7 +50,7 @@ Users should be able to:
 
 Si el border-radius no está funcionando, la mejor solucion es darle overflow:hidden a la caja contenedora.
 
-Usar la etiqueta <picture> en el HTML te permite colocar dos imagenes en un mismo lugar y elegir cuál de las dos mostrar de acuerdo al width de la pantalla. Con este función se ahorra código en el stylesheet.
+Usar la etiqueta "<picture>" en el HTML te permite colocar dos imagenes en un mismo lugar y elegir cuál de las dos mostrar de acuerdo al width de la pantalla. Con este función se ahorra código en el stylesheet.
   
 Si se define un cambio estético del border durante el :hover, debe entonces definirse también cómo será su border ANTES del :hover, de otra forma el navegador le colocará un borde negro por default.
 
