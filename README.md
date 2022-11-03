@@ -56,7 +56,10 @@ Si se define un cambio estético del border durante el :hover, debe entonces def
 
 ```html
 
-  
+        <picture class="card__imagen">
+        <source media="(min-width: 501px)" class="card__imagen" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="imagen producto" class="card__imagen">
+      </picture>
   
   
 ```
