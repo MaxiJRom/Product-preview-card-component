@@ -44,6 +44,9 @@ body {
     color: var(--clr-dark-blue);
 }
 
+.letter-spacing {
+    letter-spacing: 0.3em;
+}
 
 /* ======= Colores ==================*/
 
@@ -137,40 +140,42 @@ body {
 .card__boton:hover,
 .card__boton:focus {
     cursor: pointer;
-    border:2px outset black;
+    border: 2px outset black;
 }
 
 .card__boton:active {
-    background-color:hsl(158, 36%, 22%);
+    background-color: hsl(158, 36%, 22%);
     cursor: pointer;
-    border:2px inset black;
+    border: 2px inset black;
 }
 
 
-@media screen and (width<415px) {
+@media screen and (max-width: 500px) {
 
     .card {
+        flex-direction: column;
         align-self: flex-start;
         height: 500px;
-        flex-direction: column;
+
         border-radius: 0;
     }
 
     .card__contenedor-imagen {
-        height: 30%;
+        width: 100%;
+        height: 50%;
     }
 
     .card__imagen {
         object-fit: cover;
-        object-position: center;
+        object-position: top;
     }
 
     .card__descripcion {
-        justify-content: space-between;
-        padding: 1em;
+        padding: 1.8em;
     }
 
     .card__descripcion>h2 {
         font-size: 1.7rem;
     }
+
 }
