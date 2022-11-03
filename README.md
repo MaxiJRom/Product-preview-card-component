@@ -66,6 +66,18 @@ Si se define un cambio estético del border durante el :hover, debe entonces def
 ```css
 
   
+.card__boton {
+    background-color: var(--clr-dark-cyan);
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 0.6em;
+    border: 2px outset #fff;
+}
+
+.card__boton:hover,
+.card__boton:focus {
+    cursor: pointer;
+    border: 2px inset #fff;
   
   
 ```
