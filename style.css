@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    
 }
 
 
@@ -140,13 +140,13 @@ body {
 .card__boton:hover,
 .card__boton:focus {
     cursor: pointer;
-    border: 2px outset black;
+    border: 2px outset #fff;
 }
 
 .card__boton:active {
     background-color: hsl(158, 36%, 22%);
     cursor: pointer;
-    border: 2px inset black;
+    border: 2px inset #fff;
 }
 
 
