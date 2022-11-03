@@ -135,18 +135,19 @@ body {
     text-align: center;
     padding: 0.6em;
     border-radius: 0.6em;
+    border: 2px outset #fff;
 }
 
 .card__boton:hover,
 .card__boton:focus {
     cursor: pointer;
-    border: 2px outset #fff;
+    border: 2px inset #fff;
 }
 
 .card__boton:active {
     background-color: hsl(158, 36%, 22%);
     cursor: pointer;
-    border: 2px inset #fff;
+    border: 2px outset #fff;
 }
 
 
